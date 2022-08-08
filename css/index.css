@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;800&family=Mulish:wght@400;700&family=Nunito&family=Open+Sans:wght@400;700&family=Oswald:wght@200;700&family=Roboto:ital@0;1&family=Source+Sans+Pro&display=swap');
+*
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body
+{
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    
+    
+}
+.main-div
+{
+    background-image: url(/images/backcover.svg);
+    background-repeat: no-repeat;
+   
+    background-position: right center;
+    background-size:contain;
+   
+ 
+    
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+  
+}
+div.nav-items
+{
+    flex:0.5;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:0 2%;
+    margin:0  10%;
+}
+div.nav-logo
+{
+   flex:0.3;
+    
+}
+div.nav-logo img{
+    
+    display: block;
+    margin:0 auto;
+}
+.signin-btn
+{
+    flex: 0.1;
+    
+    margin-left:0  10%;
+    
+}
+.signin-btn
+{
+    
+    
+    margin-right: 5%;
+    padding:3px  1%;
+    border-radius: 15px;
+    border: none;
+    background:linear-gradient(90deg,#965CF2 10%,#FF8ADC 100%   ) ;
+    color: #ffff;
+    font-size: 15px;
+
+}
+.nav-item
+{
+    font-size:15px;
+    font-weight: 700;
+}
+div.intro-section
+{
+    height: 85vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   margin-left: 10%;
+}
+.left-section
+{
+    flex:2;
+     
+    display: block;
+    margin:0 auto;
+    margin-left: 5%;
+   
+}
+.intro
+{
+    height: 600px;
+    width: 800px;
+    position: relative;
+   
+    bottom:5%;
+}
+.vector-img
+{
+    position: relative;
+    bottom: 20%;
+    left: 30%;
+}
+.vector-dot
+{
+    position: relative;
+    bottom: 35%;
+    left: 25%;
+}
+.web
+{
+    font-size: 70px;
+    width: 130%;
+    font-weight: 900;
+    margin-top: 30%;
+    
+    color: #321fa0fa;
+    
+}
+.Intro
+{
+    margin-top: 40px;
+    line-height: 30px;
+    color: #8d8888;
+    font-weight: 300;
+}
+.learn-more-btn
+{
+    margin-top: 15%;
+    padding: 12px 15%;
+    border-radius: 30px;
+    border: none;
+    background:linear-gradient(90deg,#965CF2 10%,#FF8ADC 100%   ) ;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 500;
+
+}
